@@ -31,7 +31,7 @@ public final class Main extends JavaPlugin implements Listener {
           }
           for (Player p : Bukkit.getOnlinePlayers()) {
             if (p.hasPermission(getConfig().getString("staffchat-view-permission"))) {
-              p.sendMessage(ChatColor.translateAlternateColorCodes('&', (ChatColor.translateAlternateColorCodes('&', getConfig().getString("staffchat-prefix")  + player.getDisplayName() + getConfig().getString("staffchat-message-format") + message))));
+              p.sendMessage(ChatColor.translateAlternateColorCodes('&', (ChatColor.translateAlternateColorCodes('&', getConfig().getString("staffchat-prefix")  + "&c" + player.getDisplayName() + getConfig().getString("staffchat-message-format") + message))));
             }
           }
         }else {
