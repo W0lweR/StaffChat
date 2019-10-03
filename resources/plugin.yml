@@ -1,0 +1,10 @@
+name: StaffChat
+author: Wolwer
+main: ru.wolwer.StaffChat.Main
+version: 1
+description: Madcat cheat detection
+commands:
+  staffchat:
+    description: StaffChat
+    aliases:
+      - s

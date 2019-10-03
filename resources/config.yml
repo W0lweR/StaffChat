@@ -1,0 +1,6 @@
+staffchat-view-permission: 'staffchat.view'
+staffchat-send-permission: 'staffchat.send'
+staffchat-no-arguments: '&cYou need to write a message to send it!'
+staffchat-no-permission-message: '&cYou don''t have permission to execute this command!'
+staffchat-message-format: '&f: '
+staffchat-prefix: '&b[STAFF] '
